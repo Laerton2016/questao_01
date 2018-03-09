@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.laerton.questao_01.pagina2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@mipmap/chat2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/imageButton"
+            android:textColor="#1647E9"
+            android:text="OUVIDORIA" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageButton"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginTop="177dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:tooltipText="digite sua reclamação, eleogio ou pergunta e depois toque em enviar."
+            />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="17dp"
+            android:background="#5191FD"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="12dp"
+            android:background="#F6A615"
+            android:text="Enviar" />
+
+    </RelativeLayout>
